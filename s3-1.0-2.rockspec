@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "s3"
 version = "1.0-2"
 
+-- LuaDist source
 source = {
-   url = "git://github.com/gcr/lua-s3",
+  tag = "1.0-2",
+  url = "git://github.com/LuaDist-testing/s3.git"
 }
+-- Original source
+-- source = {
+--    url = "git://github.com/gcr/lua-s3",
+-- }
 
 description = {
    summary = "A simple S3 API to upload and download objects",
